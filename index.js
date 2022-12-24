@@ -67,9 +67,6 @@ for(var i=1;i<=6;i++){
       document.getElementById("sunrise"+(i+2)).innerHTML = response.sunrise
       document.getElementById("sunset"+(i+2)).innerHTML = response.sunset
     })
-    // .catch(err => {console.error(err)});
   }
   getWeather2(place,i);
-  // console.log(city);
-  // alert("Yo");
 }
